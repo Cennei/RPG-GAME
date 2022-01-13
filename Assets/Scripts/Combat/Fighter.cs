@@ -59,7 +59,7 @@ namespace RPG.Combat
         {
             if(target == null) { return; }
                 target.TakeDamage(weaponDamage);
-                target.Death();
+                target.IsDead();
         }
 
         public bool CanAttack(GameObject combatTarget)
@@ -84,6 +84,7 @@ namespace RPG.Combat
         {
             StopAttack();
             target = null;
+            GetComponent<Mover>().Cancel();
         }
 
         private void StopAttack()

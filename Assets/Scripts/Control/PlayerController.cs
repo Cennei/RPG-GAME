@@ -7,6 +7,7 @@ using RPG.Core;
 
 namespace RPG.Control
 {
+    [RequireComponent(typeof(Health))]
     public class PlayerController : MonoBehaviour
     {
         Health state;
