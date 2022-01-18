@@ -27,13 +27,18 @@ PrefabInstance:
         type: 3}
       propertyPath: defaultWeapon
       value: 
-      objectReference: {fileID: 11400000, guid: c12ac24d6ae210d40815627d9cfbf637,
+      objectReference: {fileID: 11400000, guid: 92b0cb2c283e96e4ebee33d048d1e870,
         type: 2}
     - target: {fileID: 5647767100849820746, guid: 7463413ff34d6ce488d7aebcfac73732,
         type: 3}
       propertyPath: handTransform
       value: 
       objectReference: {fileID: 7688405377004202522}
+    - target: {fileID: 5647767100849820746, guid: 7463413ff34d6ce488d7aebcfac73732,
+        type: 3}
+      propertyPath: defaultWeaponName
+      value: Sword
+      objectReference: {fileID: 0}
     - target: {fileID: 5647767100849820746, guid: 7463413ff34d6ce488d7aebcfac73732,
         type: 3}
       propertyPath: leftHandTransform
@@ -149,19 +154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c358f169db4327488af086218ee182d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &121651506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265304052784077561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4df345fce88aa704a874dc9ccc57e0d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPoints: 100
 --- !u!114 &1810329152003442293
 MonoBehaviour:
   m_ObjectHideFlags: 0

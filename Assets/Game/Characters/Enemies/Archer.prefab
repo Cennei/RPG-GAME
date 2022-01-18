@@ -11,12 +11,22 @@ PrefabInstance:
         type: 3}
       propertyPath: defaultWeapon
       value: 
-      objectReference: {fileID: 11400000, guid: 397a500a6ff4f594ba634dedf6e569fe,
+      objectReference: {fileID: 11400000, guid: 221be75da6d27a84e8e46a471459f1f1,
         type: 2}
+    - target: {fileID: 1265304052784077560, guid: 02b02b23d1990e9459057a7f450c21ce,
+        type: 3}
+      propertyPath: defaultWeaponName
+      value: Enemy Bow
+      objectReference: {fileID: 0}
     - target: {fileID: 1265304052784077561, guid: 02b02b23d1990e9459057a7f450c21ce,
         type: 3}
       propertyPath: m_Name
       value: Archer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265304052784077564, guid: 02b02b23d1990e9459057a7f450c21ce,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1265304052949770099, guid: 02b02b23d1990e9459057a7f450c21ce,
         type: 3}
@@ -72,6 +82,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1810329152003442293, guid: 02b02b23d1990e9459057a7f450c21ce,
+        type: 3}
+      propertyPath: chaseDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1819835483698670271, guid: 02b02b23d1990e9459057a7f450c21ce,
         type: 3}
